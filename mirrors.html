@@ -207,7 +207,7 @@
 
 <script>
 const SUITS = [
-  "AYAT — SIGNS",
+  "AYA — SIGNS",
   "QALB — HEART",
   "QAWL — WORDS",
   "NAAR — FIRE",
@@ -215,7 +215,7 @@ const SUITS = [
 ];
 
 const CARDS = [
-  { id:"fitra", number:"0", suit:"AYAT — SIGNS", title:"FITRA — Primordial Nature",
+  { id:"fitra", number:"0", suit:"AYA — SIGNS", title:"FITRA — Primordial Nature",
     archetype:"Beginnings, radical trust, clarity before conditioning.",
     description:`Fitra is the face you had before your parents were born. Before the names, there was an original yes—the covenant made when all was still light moving across dark waters. We are waves that forgot we are ocean; peaks rising in a single mirror, catching glow and calling it "mine", lifting into separateness and calling this birth, never recognizing it is water itself playing at boundaries.
 
@@ -224,7 +224,7 @@ Abyss and witness share the same substance — not innocence but pre-innocence�
 You do not find this nature. You stop obscuring it. The journey begins when the reflection recognizes the face of the deep in its own flickering surface, and the deep reaches through.`,
     image:"https://substackcdn.com/image/fetch/$s_!Jmqf!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60f864af-f38e-47c2-8185-ffd99ca5f43d_1200x1200.jpeg", substack:"", behance:"" },
 
-  { id:"nubuwwa", number:"I", suit:"AYAT — SIGNS", title:"NUBUWWA — Revelation",
+  { id:"nubuwwa", number:"I", suit:"AYA — SIGNS", title:"NUBUWWA — Revelation",
     archetype:"The prophetic channel, transmission between worlds, the word that reorganizes everything it touches.",
     description:`Something came through.
 Not from within — from beyond, through a vessel prepared without knowing it was being prepared. The message did not belong to the one who carried it. It passed through and kept moving — through lineage, through interpretation, through every generation willing to receive what the last one preserved.
@@ -238,7 +238,7 @@ You do not encounter revelation once. You encounter it at the level of your capa
 The word was sent. It is still arriving.`,
     image:"https://substackcdn.com/image/fetch/$s_!00wh!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faeb47433-ee4d-4a14-99fd-454e907cc787_1200x1200.jpeg", substack:"", behance:"" },
 
-  { id:"zahra", number:"II", suit:"AYAT — SIGNS", title:"ZAHRA — Flowering",
+  { id:"zahra", number:"II", suit:"AYA — SIGNS", title:"ZAHRA — Flowering",
     archetype:"Inner knowing, sacred intuition, hidden wisdom, sovereign abundance.",
     description:`Some knowledge cannot be shouted because it must survive in smaller circles. Zahra is wisdom carried through bodies and generations of tears. Truth passes to those who remember what power demands be forgotten. Grief here is not emptiness but guardianship.
 
@@ -249,7 +249,7 @@ History mistakes quiet for surrender, but dignity outlives thrones. Grief become
 You do not discover this knowing. You protect it.`,
     image:"https://substackcdn.com/image/fetch/$s_!1IWR!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e47b860-d024-4db5-912c-623cafcd870e_1200x1200.jpeg", substack:"", behance:"" },
 
-  { id:"kubra", number:"III", suit:"AYAT — SIGNS", title:"KUBRA — Foremost",
+  { id:"kubra", number:"III", suit:"AYA — SIGNS", title:"KUBRA — Foremost",
     archetype:"Sacred recognition, the abundance that makes everything possible, the one who sees first and gives everything.",
     description:`Some see clearly before the world has caught up. Not because they were told what to look for — because their heart was already calibrated to the Real before the Real announced itself. This is the foremost quality: not precedence in time but precision of recognition. To see what is true and stake everything on that sight before anyone else has opened their eyes.
 
@@ -262,14 +262,27 @@ What she held became what held everything else. The first home the revolution ev
 Foremost — not a rank assigned. A nature revealed.`,
     image:"https://substackcdn.com/image/fetch/$s_!kQce!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa24f6422-7056-4d2f-8331-b9b1ef1270fb_1200x1200.jpeg", substack:"", behance:"" },
 
-  { id:"amir", number:"IV", suit:"AYAT — SIGNS", title:"AMIR — Commander",
+  { id:"amir", number:"IV", suit:"AYA — SIGNS", title:"AMIR — Commander",
     archetype:"Structure, authority, responsibility.",
     description:`Authority is a structure; does it shelter or cage? The Commander sets the table last for himself when his people hunger. Light at the center does not command darkness — it refuses the extinguishment of color, allows for life as duty. Power is loan, justice is foundation. Without the second, the first collapses inward. You do not hold authority — it holds you accountable. What came out of the circumambulated?
 
 The crown weighs heaviest on the head that remembers the pledges of outstretched hands, the soft bellies beneath hearts, the crushed ribs.`,
     image:"https://substackcdn.com/image/fetch/$s_!jrh2!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8b1081-de4d-46e3-9c34-2049c2dbbf2f_1200x1200.jpeg", substack:"", behance:"" },
 
-  { id:"muntadhir", number:"IX", suit:"AYAT — SIGNS", title:"MUNTADHIR — Awaited",
+ { id:"imaama", number:"V", suit:"AYA — SIGNS", title:"IMAAMA — Guidance",
+    archetype:"Sacred leadership, the living transmission, the guidance that does not require visibility to be real.",
+    description:`Revelation was never meant to stand unattended in history. The word descends — but descent is not enough. What is sent must be guarded, interpreted, embodied, carried forward by those entrusted with its living meaning. Without inheritors, every generation remakes truth in its own image and calls the fracture freedom. Without custody, the message becomes whatever power needs it to be. This is not inspiration. It is succession.
+
+The chain that did not break after revelation ceased — that took living form in those appointed to preserve its measure, protect its meaning, keep the path from being overtaken by forgetfulness and self-invention. Authority does not end when it becomes difficult to see. The sun is still the sun behind clouds. What is designated in truth is not undone by concealment, exile, or the long corruption of public memory.
+
+To seek Imaama is to refuse orphanhood. To know that truth was not left ownerless; that interpretation is a trust, not a private project of the ego; that the path has inheritors, and that truth does not leave them unnamed.
+
+Do not ask only what you believe. Ask who has the right to carry belief intact through time. The line grows by designation, opening toward what designates. It does not choose its own direction. This is not submission — it is the precision of a love that knows its source.
+
+The line remains. Recognition is your task, not its condition.`,
+    image:"https://substackcdn.com/image/fetch/$s_!QrIj!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F00c84a82-e06f-4520-8f71-08ceb011d594_1200x1200.jpeg", substack:"", behance:"" },
+
+  { id:"muntadhir", number:"IX", suit:"AYA — SIGNS", title:"MUNTADHIR — Awaited",
     archetype:"The sacred vigil, longing as loyalty, the one who is hidden and the ones who keep the light.",
     description:`He is not absent. He is hidden — which is a different condition entirely. The ocean does not stop being the ocean because you cannot see its limits.
 
@@ -282,7 +295,7 @@ He sees. This is what the tradition says — that he knows his people, grieves t
 The candle is not lit for nothing. Someone is coming who will recognize what it cost to keep it burning.`,
     image:"https://substackcdn.com/image/fetch/$s_!rv-l!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ab562e6-fe15-47b1-af6a-3a9f14defdc3_1200x1200.jpeg", substack:"", behance:"" },
 
-  { id:"barzakh", number:"XIII", suit:"AYAT — SIGNS", title:"BARZAKH — Threshold",
+  { id:"barzakh", number:"XIII", suit:"AYA — SIGNS", title:"BARZAKH — Threshold",
     archetype:"The interval, the luminous between, what persists when the form is released.",
     description:`There is a place that is not absence.
 Between the last breath and the first light of what comes after — a realm that is the fullness of both held in suspension. Dwelling. The soul that has crossed does not disappear into silence. It inhabits a proximity the living can almost feel, especially in the hours before dawn, especially in the month when the veils thin.
@@ -298,7 +311,7 @@ The threshold is not a wall. It is a membrane — and what was most real about t
 The door does not close. It opens differently.`,
     image:"https://substackcdn.com/image/fetch/$s_!BPyf!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb0494c8-eff2-45c9-b604-dfbb4f1986e9_1200x1200.jpeg", substack:"", behance:"" },
 
-  { id:"nafs", number:"XV", suit:"AYAT — SIGNS", title:"NAFS — Enemy",
+  { id:"nafs", number:"XV", suit:"AYA — SIGNS", title:"NAFS — Enemy",
     archetype:"The lower self, the commanding desire, the interior adversary that must be known before it can be crossed.",
     description:` Nafs Amarra. The most dangerous enemy speaks in your own voice, through marionetting your body and twisting your tongue to fashion its desires. 
 It knows your justifications before you make them. It shaped your blind spots. It has been present at every moment of compromise and called each one reasonable, necessary, deserved. It does not tempt from outside — it uses the inside arsenal you forgot. It knew every one of your ancestors too.
@@ -311,7 +324,7 @@ Know your enemy. It knows you.`,
     image:"http://substackcdn.com/image/fetch/$s_!PvPN!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2b686a0-3d90-4213-b6a8-df6feef3e18a_1200x1200.jpeg", substack:"", behance:"" },
 
 
-  { id:"nur", number:"XIX", suit:"AYAT — SIGNS", title:"NUR — Radiance",
+  { id:"nur", number:"XIX", suit:"AYA — SIGNS", title:"NUR — Radiance",
     archetype:"Illumination, joy, the light that was before light.",
     description:`Before the first vessel there was this — the light that things are made of, not the light that falls on them.
 You recognize it when you encounter it. Not because you were told what to look for. Because something in you was made of the same substance.
@@ -323,7 +336,7 @@ You are not looking for it. You are standing in it.
 The center holds. Everything else is how far the light travels.`,
     image:"https://substackcdn.com/image/fetch/$s_!yiYX!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3434f5a-fdc6-4eed-bdaf-fbf083e2f4b3_1200x1200.jpeg", substack:"", behance:"" },
 
-  { id:"qiyama", number:"XX", suit:"AYAT — SIGNS", title:"QIYAMA — Rising",
+  { id:"qiyama", number:"XX", suit:"AYA — SIGNS", title:"QIYAMA — Rising",
     archetype:"Judgement, resurrection, the final accounting that was always coming.",
     description:`Everything that was buried rises. Everything that was silenced speaks. Everything taken is weighed on a scale that cannot be falsified.
 
@@ -336,7 +349,7 @@ The body. The land. The name. The truth buried under whoever held the pen. All o
 The trumpet has not yet sounded. But what you have built in the dark will stand or fall in that light exactly as it is.`,
     image:"https://substackcdn.com/image/fetch/$s_!lzer!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4713e354-b820-4412-aa8f-bc30d0b4bb5f_1200x1200.jpeg", substack:"", behance:"" },
 
-  { id:"tawhid", number:"XXI", suit:"AYAT — SIGNS", title:"TAWHID — Unity",
+  { id:"tawhid", number:"XXI", suit:"AYA — SIGNS", title:"TAWHID — Unity",
     archetype:"Completion, wholeness, integration.",
     description:`All journeys ultimately return to unity — recognizing the One behind all multiplicity. Chapter 112.`,
     image:"https://substackcdn.com/image/fetch/$s_!iV96!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f715e94-1956-43bd-bdb0-68b42dea26c5_1200x1200.jpeg", substack:"", behance:"" },
@@ -380,6 +393,22 @@ Gratitude is not a feeling. It is a form of sight.
 What you have been given is still arriving.`,
     image:"https://substackcdn.com/image/fetch/$s_!-WIz!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21e1646c-2d5d-4e56-ad08-9bc7e4ffb8bd_1200x1200.jpeg", substack:"", behance:"" },
 
+ { id:"dhikr", number:"VI", suit:"QALB — HEART", title:"DHIKR — Rememberance",
+    archetype:"Sacred memory, the practice of return, the name that rewrites the soul.",
+    description:` Some things must be said aloud to remain true.
+
+Not because the Real forgets — because we do. The remembrance is not for God’s benefit. It is the soul’s refusal to let the distance accumulate, the practice of closing the gap before it hardens into forgetting, the return made so many times it becomes the direction the soul naturally faces.
+
+Dhikr is the oldest inheritance. The names placed in your mouth before you understood them, the practices handed down through hands that had received them from hands before — the sweet transmission that was given before you knew what you were being given, and that you are now responsible for giving forward.
+
+To remember is also to resist erasure. Every name spoken for the beloved dead, every tradition kept alive in the face of what would extinguish it, every practice maintained in the dark — this is dhikr. The personal and the political are the same repetition: I will not forget. I will not let you be forgotten.
+
+The groove worn in the soul by returning, again and again, to what is true.
+
+Say the name. Say it again. Let it say you.`,
+    image:"https://substackcdn.com/image/fetch/$s_!rZei!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98b4bcb7-f187-4e13-8028-9fe5c43500d4_1200x1200.jpeg", substack:"", behance:"" },
+
+
   { id:"niyya", number:"VII", suit:"QALB — HEART", title:"NIYYA — Direction",
     archetype:"Intention, orientation, the heart's alignment before the act.",
     description:`Before the lips move, the heart has already chosen.
@@ -393,6 +422,35 @@ Face what you are actually facing. Then move.
 
 The stars above and the depth below are the same world. Direction is what connects them.`,
     image:"https://substackcdn.com/image/fetch/$s_!azET!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52dd1621-9c20-4230-bab6-503eae5883a8_1200x1200.jpeg", substack:"", behance:"" },
+
+ { id:"tabarra", number:"VIII", suit:"QALB — HEART", title:"TABARRA — Disavowal",
+    archetype:"Sacred turning away, the principled departure, love made precise by what it refuses.",
+    description:`To love correctly is also to turn away correctly.
+
+The disavowal is not the opposite of love — it is its completion. What you will not accept defines the shape of what you have chosen. The heart that stands for something must also stand against what threatens it, not from hatred but from the same clarity that recognized what was worth loving in the first place.
+
+This is the principled departure. The careful arrangement left behind not from despair but from discernment — the recognition that remaining would require a compromise the soul has already decided it will not make. The leaving is not loss. It is precision.
+
+Tabarra asks: what have you been tolerating that your allegiance actually forbids? What familiar comfort have you arranged around yourself that requires you to look away from what you claim to stand for?
+
+The turning away is also a turning toward. The back you show to what you disavow is the face you turn towards what you love.
+
+Walk away cleanly. What you leave behind was a threat to what is yours to keep.`,
+    image:"https://substackcdn.com/image/fetch/$s_!O-c6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff917d0a5-31fb-46a5-b916-4264ef3840bd_1200x1200.jpeg", substack:"", behance:"" },
+
+
+ { id:"tawalla", number:"IX", suit:"QALB — HEART", title:"TAWALLA — Allegiance",
+    archetype:"Sacred devotion, the turning toward, the love that has chosen and knows it has chosen well.",
+    description:` There is a satisfaction that has nothing to do with comfort.
+It is the deep settling of the soul that has found what it was made to love and turned toward it completely — not from obligation, not from fear, but from the recognition that this is the direction the heart aligns itself. The allegiance precedes the vow. The vow only names what was always true.
+Tawalla is the other face of every disavowal. You cannot turn away without turning toward. The back shown to what you have refused is the same gesture as the face shown to what you have chosen — one motion, two directions, the soul made whole by the precision of its love.
+To stand in tawalla is to know whose you are. Not in submission but in belonging — the difference between a cage and a home is not the walls but the choosing. This was chosen. This is chosen again, every day, in every act that reflects what the heart has pledged.
+The wish fulfilled here is not the wish for ease. It is the wish to love correctly, completely, without reservation, to protect that love — and the discovery that this wish, of all wishes, is the one the Real is most willing to grant.
+Whose are you?
+You already know. You have always known.
+Turn home.`,
+    image:"https://substackcdn.com/image/fetch/$s_!gsZA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3b0b1e1-c98a-40a7-892f-ffdace9335c5_1200x1200.jpeg", substack:"", behance:"" },
+
 
  { id:"mutmainna", number:"X", suit:"QALB — HEART", title:"MUTMAINNA — Pleased and Pleasing",
     archetype:"The soul at rest, completion, the arrived life.",
@@ -449,6 +507,23 @@ Maryam does not offer her depths for examination. She offers what flows from the
 Cherished before chosen. Chosen before asked. Complete before any of it.`,
     image:"https://substackcdn.com/image/fetch/$s_!56e5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcab88c2-1f10-403c-a95c-d06f456d52a4_1200x1200.jpeg", substack:"", behance:"" },
 
+ { id:"masih", number:"XIV", suit:"QALB — HEART", title:"MASIH — Jesus",
+    archetype:"The living mercy, the sacrifice completed by love, the anointed one who waits.",
+    description:`Some stories do not end where they appear to end.
+
+The one who was raised did not disappear — he withdrew. Not in defeat but in the logic of a love that knew its completion would come through another, in another time, on another plain that would make the first sacrifice legible in full. What looked like ending was preparation. What looked like loss was the long arc of a mercy still in motion.
+
+The anointing does not expire. It waits in the one who carries it, accumulating, deepening, until the moment arrives that was always the destination. The oil runs down but it does not run out. The heart that was broken open stays open — across centuries, across traditions, across every boundary drawn to contain what was never containable.
+
+This is the mastery of the heart that has already given everything and discovered that giving everything is not the end of having something to give. The poured out cup that remains full. The mercy that multiplied rather than diminished in the pouring.
+
+He is not gone. He is waiting — as the faithful wait, as the hidden wait, as all true things wait that have not yet found their hour.
+
+The return is not his alone. The completion belongs to all who were always, without knowing it, part of the same story.
+
+What you love across every boundary is already one love.`,
+    image:"https://substackcdn.com/image/fetch/$s_!Gq37!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F456ddc45-61e9-44c9-894b-b2c3750a5a9f_1200x1200.jpeg", substack:"", behance:"" },
+
   { id:"haq", number:"I", suit:"QAWL — WORDS", title:"HAQ — Truth",
     archetype:"Clarity, justice, the courage to name what is real.",
     description:`A sword of light passes through illusion, leaving only what can stand in truth. A seed of light grows in the wounding. Falsehood falls away, and the silenced recover their voice. Here, justice is remembrance: the heart aligning with what cannot be corrupted, and choosing truth even when it costs comfort.`,
@@ -480,6 +555,25 @@ I saw nothing but beauty.
 
 The grief was real. The black was real. The pearl at the center did not go out. And the throne that could not survive being seen clearly fell anyway.`,
     image:"https://substackcdn.com/image/fetch/$s_!_-JK!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b4876c7-150e-4347-8768-1eb7a2528e43_1200x1200.jpeg", substack:"", behance:"" },
+
+ { id:"kufr", number:"VIII", suit:"QAWL — WORDS", title:"KUFR — Ingratitude",
+    archetype:"Concealment, the covered gift, the willful forgetting of what was given.",
+    description:`To conceal is not always to lie. Sometimes it is simply to stop looking at what is there.
+
+The gift was real. The provision arrived. The belovedness was extended before it was asked for and has not been withdrawn. Ingratitude is not the lack of receiving — it is the covering over of what was given, the turning away so habitual it begins to feel like truth, the forgetting so practiced it hardens into a position.
+
+This is the veil that is self-applied. The blinds that surround are not the imprisonment — the belief in them is. The bindings are loose. The path is open. What keeps the soul in place is the story it has chosen to tell about its own condition.
+
+Kufr and shukr share the same moment — the moment of recognition, when the gift becomes visible. One opens toward it. One turns away. The difference is not circumstance. It is direction.
+
+What have you been given that you have stopped seeing? What provision have you covered over with the narrative of your own deprivation? What love have you buried under the weight of what was withheld?
+
+The concealment costs more than the acknowledgment ever would.
+
+Look at what is actually there.
+What do you owe?`,
+    image:"https://substackcdn.com/image/fetch/$s_!oo_S!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb9802ca-42b1-4b98-9848-0b6061def157_1200x1200.jpeg", substack:"", behance:"" },
+
 
   { id:"shahada", number:"X", suit:"QAWL — WORDS", title:"SHAHADA — Testimony",
     archetype:"Devastation, betrayal, tragic endings.",
@@ -609,6 +703,39 @@ Between the self that grasps and the spirit that moves, desire is not a private 
 
 Power that costs nothing changes nothing. The flame burns away illusion.`,
     image:"https://substackcdn.com/image/fetch/$s_!vSj0!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed2d3fcf-9957-4a17-91ae-f052a96dd4ec_1200x1200.jpeg", substack:"", behance:"" },
+
+ { id:"khalil", number:"XIV", suit:"NAAR — FIRE", title:"KHALIL — Abraham",
+    archetype:"The visionary patriarch, the fire that does not consume what is surrendered, the Friend of God.",
+    description:`There is a friendship with the Real that goes beyond obedience.
+
+The servant follows commands. The friend argues, questions, pushes back — show me how the dead are raised, I want to see with my own eyes. This is not doubt. It is the intimacy of a relationship so established it can bear the weight of genuine exchange. The Friend of God is the one God chose to be argued with.
+
+He smashed the idols before there was a movement behind him. He walked into the fire before anyone had proven it would not burn. Every test arrived before the outcome was visible and he moved anyway — not from certainty about results but from certainty about direction.
+
+The fire became cool. And inside the coolness — every color. The full spectrum held in what should have been destruction, the rainbow breaking through the white center of the flame. The covenant written not in stone but in light dispersed through fire. All the paths that would come after already present in the furnace, already held, already promised.
+
+This is what the khalil ultimately carries: the knowledge that total surrender does not extinguish — it reveals. What walks in aligned with the Real walks out holding every color that was always inside the flame.
+
+The Abrahamic way. The way before the ways divided. All roads that lead to the Real lead through this fire first — and find the whole spectrum waiting inside it.`,
+    image:"https://substackcdn.com/image/fetch/$s_!7bt4!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53c54104-24ae-4932-903c-85cce8a52264_1200x1200.jpeg", substack:"", behance:"" },
+
+ { id:"rizq", number:"I", suit:"ARD — MATERIAL", title:"RIZQ — Provision",
+    archetype:"Divine sustenance, the guaranteed gift, abundance before it has been earned or directed.",
+    description:`For every breath on this planet, the provision has already been allocated.
+
+Rizq is not the abundance that rewards effort — it is the abundance that precedes it, the sustenance written into the structure of existence before you arrived to receive it. The earth does not wait to be asked. It gives because giving is its nature, because the Real embedded generosity into matter itself, because scarcity is a lie told by those who hoard what was never theirs to keep.
+
+Rizq cannot be stolen. What is yours will find you. What is not yours was never in your hands to begin with, only passing through. This is not passivity — it is the liberation of knowing that your survival does not depend on the goodwill of those who would withhold it. The provision has a source they do not control.
+
+The seed holds everything the tree will be, and waits for a drop of water. The coin holds every exchange it will enable, shinier itself than any purchase. The first gift of the earth arrives complete — not partial, not conditional, not subject to the approval of power.
+
+What has been given cannot be ungiven. What is written cannot be unwritten.
+
+Receive what arrives. Circulate what you have been given. Trust the source that has never once forgotten what you need.
+
+The provision is already here.`,
+    image:"https://substackcdn.com/image/fetch/$s_!MeID!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3de78118-9f21-497f-bf3c-8382a51e5e87_1200x1200.jpeg", substack:"", behance:"" },
+
 
   { id:"jamila", number:"III", suit:"ARD — MATERIAL", title:"JAMILA — Beautiful",
     archetype:"Collaboration, skill recognized, beauty in service.",
